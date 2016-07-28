@@ -1,0 +1,87 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 80px;
+}
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #EEEEEE;	
+	border-bottom: 1px solid #DDDDDD;	
+}
+h1 {
+	font-size: 18px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.logo {
+	color: #000000;
+}
+nav {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	padding-top: 10px;
+}
+.link {
+	font-size:18px;
+	padding-right: 5px;
+	color: #551A8B;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.search input{
+	width: 400px;
+	line-height: 30px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	border: 1px solid #DDDDDD;
+}
+.button {
+	font-size: 18px;
+	height: 32px;
+	background-color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+}
+.pages {
+	display: inline-block;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+.prev, .next {
+	display: inline-block;
+	color: #000000;
+	font-size: 16px;
+	padding: 8px 20px;
+}
+.current-page {
+	font-size: 16px;
+	border-right: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	padding: 8px 15px;
+}
+.results {
+	padding: 0;
+}
+.listing {
+	list-style: none;
+	padding-bottom: 15px;
+}
+.fa-star, .date, .city {
+	color: #999999;
+	padding-right: 8px;
+	font-weight: bold;
+}
+.job {
+	color: #551A8B;
+	font-weight: bold;
+	padding-right: 8px;
+}	
+			
+		
